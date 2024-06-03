@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 
 const token = '7039700796:AAFMj4Ujd9hLfhRelTptmw3nOhz7EhHWeu0';
-const webAppUrl = 'https://telegram-clicker-website.vercel.app/';
+const webAppUrl = 'https://telegram-clicker-website.onrender.com/';
 
 const bot = new TelegramBot(token, { polling: true }); 
 
